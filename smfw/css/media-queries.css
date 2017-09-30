@@ -8,7 +8,7 @@
     .parallax-section {
         background-position: center top !important;
     }
-	
+
 	/* home slider */
     #slitSlider .carousel-caption h2 {
         font-size: 60px;
@@ -461,6 +461,15 @@
     .m-top-bar {
         display: none;
     }
+
+    .m-lang {
+        margin: 13px 0 0 0;
+        padding-right: 18px;
+    }
+
+   .m-lang.p{
+        display: none;
+    }
 }
 
 
@@ -597,5 +606,9 @@
     }
     .main-footer .col-lg-4 {
         width: 25%;
+    }
+
+    .m-lang.m{
+        display: none;
     }
 }

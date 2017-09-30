@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav {
-	margin: 15px -15px;
+	margin: 32px -15px 0;
 }
 
 #nav_bookbtn a {
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav_bookbtn {
-    margin: 32px 0 0 15px;
+    margin: 50px -80px 0 15px;
 }
 
 .fa-chevron-right:before {
@@ -1530,7 +1530,7 @@ aside.widget {
 }
 
 /*=================================================================
-	Single Blog Page
+       Single Blog Page
 ==================================================================*/
 
 .single-blog {
@@ -1574,10 +1574,10 @@ blockquote {
 }
 
 .post-author > img {
-	border: 1px solid #4e595f;
-	max-width: 120px;
-	padding: 5px;
-	width: 100%;
+       border: 1px solid #4e595f;
+       max-width: 120px;
+       padding: 5px;
+       width: 100%;
 }
 
 .comment-reply-form > h3,
@@ -1742,5 +1742,19 @@ ul.social-ac li {
 }
 
 #fixed-footer {
-    display: none;
+	display: none;
+}
+
+.dropdown-menu {
+	min-width: 0px;
+}
+.m-lang .btn {
+	padding: 1px 5px;
+	width: 80px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.bg-main-pup-1 {
+    background: #93773A;
 }
