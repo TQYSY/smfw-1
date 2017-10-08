@@ -120,8 +120,7 @@
 	font-size: 28px;
 	font-weight: 300;
 	margin-bottom: 10px;
-	padding: 40px 0 10px;
-	text-transform: capitalize;
+	padding: 0px 0 10px;
 }
 
 .og-details p {
@@ -144,9 +143,9 @@
 
 .og-details a::before {
 	/* content: '\2192'; */
-    display: inline-block;
-    float: right;
-    margin-left: 10px;
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
 }
 
 .og-details a:hover {
