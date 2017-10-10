@@ -612,3 +612,16 @@
         display: none;
     }
 }
+
+/*iphone 6 */ 
+@media (min-device-width : 375px) {
+   html{font-size: 64px;}
+}
+/* iphone6 plus */
+@media (min-device-width : 414px) {
+    html{font-size: 75px;}
+}
+/*iphone 5 */
+@media (min-device-width : 414px) {
+    html{font-size: 16px;}
+}
